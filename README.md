@@ -8,14 +8,14 @@ The solutions are found using the Gauss–Seidel (iterative) method.
 Operating system used is Ubuntu 20.04.
 
 ## Make
-This project uses Make to generate the executable: https://www.gnu.org/software/make/.
+This project uses Make to generate the executable: [Get Make from the GNU Project](https://www.gnu.org/software/make/).
 You may need to install this: 
 1. Updates: `sudo apt-get update`
 2. Install: `sudo apt-get install make`
 
 
 ## Compiler
-The compiler used for this software is gfortran: (https://gcc.gnu.org/fortran/).
+The compiler used for this software is gfortran: [Get the gcc compiler from GNU](https://gcc.gnu.org/fortran/).
 To install it: 
 1. Updates: `sudo apt-get update`
 2. Install: `sudo apt-get install gfortran-9`
@@ -27,7 +27,6 @@ To install it:
 
 ## Results
 Once the program has been run, a file called results.csv will be generated
-with the solution. For visualization, ParaView is a good choice. 
-ParaView: https://www.paraview.org/.
-ParaView Tutorial: https://www.paraview.org/Wiki/images/b/bc/ParaViewTutorial56.pdf.
+with the solution. For visualization, [ParaView](https://www.paraview.org/) is a good choice.
+If you need help, go to [ParaView Tutorial](https://www.paraview.org/Wiki/images/b/bc/ParaViewTutorial56.pdf).
 If you don't want to run the program, a results.csv file is already included.
