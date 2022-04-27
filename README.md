@@ -1,6 +1,8 @@
 ## 2D Diffusion Equation Solver
-This code solves the 2D Diffusion Equation using the Finite Volume Method
-in a 2D Cartesian System.
+This code solves the 2D Diffusion Equation.
+The 2D diffusion equation is discretized using
+the finite volume method.
+The solutions are found using the Gauss–Seidel (iterative) method. 
 
 ## Operating System
 Operating system used is Ubuntu 20.04.
