@@ -1,4 +1,4 @@
-!     PROGRAM TO SOLVE LAPLACE EQUATION OVER DOMAIN
+!     PROGRAM TO SOLVE 2D DIFFUSION EQUATION OVER DOMAIN
 !     0<=x<=1,  0<=y<=1
 !     with boundary conditions phi=x*y
 !*********************************************************************************  
@@ -11,6 +11,7 @@ program diffusion
       real, dimension(1:nx,1:ny) :: AE,AW,AN,AS,AP,SP,SU
       real, dimension(0:nx+1,0:ny+1) :: phi
 !**********************************************************************************
+!     x and y-dimension space steps
       dx=1./float(nx);  dy=1./float(ny)
 
 !     initialize SU and SP to interior cell values of zero
