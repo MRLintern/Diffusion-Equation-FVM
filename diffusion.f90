@@ -72,7 +72,7 @@ program diffusion
 
       AP=AE+AW+AN+AS-SP
 !************************************************************************************
-!     ITERATIVE SOLVER
+!     ITERATIVE SOLVER: Successive Over Relaxation (SOR)
       omega=1.7
       do iterations=1,500   !fix number of iterations at 500
       do i=1,nx
