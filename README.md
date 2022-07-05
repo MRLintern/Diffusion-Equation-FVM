@@ -10,20 +10,20 @@ Operating system used is Ubuntu 20.04.
 ## Make
 This project uses Make to generate the executable: [Get Make from the GNU Project](https://www.gnu.org/software/make/).
 You may need to install this: 
-1. Updates: `sudo apt-get update`
-2. Install: `sudo apt-get install make`
+1. Updates: `$ sudo apt-get update`
+2. Install: `$ sudo apt-get install make`
 
 
 ## Compiler
 The compiler used for this software is gfortran: [Get the gcc compiler from GNU](https://gcc.gnu.org/fortran/).
 To install it: 
-1. Updates: `sudo apt-get update`
-2. Install: `sudo apt-get install gfortran-9`
+1. Updates: `$ sudo apt-get update`
+2. Install: `$ sudo apt-get install gfortran-9`
 
 ## Instructions
-1. Clone the repository: `https://github.com/MRLintern/Diffusion-Equation-FVM.git`
-2. `make`
-3. `./Diffusion-Solver-FVM`
+1. Clone the repository: `$ git clone https://github.com/MRLintern/Diffusion-Equation-FVM.git`
+2. `$ make`
+3. `$./Diffusion-Solver-FVM`
 
 ## Results
 Once the program has been run, a file called results.csv will be generated
